@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    border: solid white;
+}
+img {
+    width: 50%;
+    height: 300px;
+}
+
+input {
+    border-radius: 5px;
+}
+
+/*.oneLine {*/
+/*    text-overflow: ellipsis;*/
+/*    overflow: hidden;*/
+/*    white-space: nowrap;*/
+/*}*/
+
+span {
+    font-weight: bold;
+}
+
+/*Shows only 2 lines of text*/
+.modernWay {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
